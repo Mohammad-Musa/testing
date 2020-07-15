@@ -9,7 +9,12 @@
  * @param {any} val
  * @returns {boolean}
  */
-const isFalsy = (_) => {
+const isFalsy = (val) => {
+  if (Boolean(val)) {
+		return false;
+	} else {
+		return true;
+	}
 
 };
 
