@@ -8,7 +8,7 @@ describe('bracket notation', () => {
     const key2 = 'wet';
     const obj = {};
     obj[key2] = 'soup';
-    obj[key1] = 'bread'
+    obj[key1] = 'bread';
     expect(obj.wet).to.eql('soup');
     expect(obj[key1]).to.eql('bread');
   });
